@@ -6,6 +6,8 @@ fn main() {
     wrap_fn(fn2);
     wrap_fn_box(Box::new(fn_box_1));
     wrap_fn_box(Box::new(fn_box_2));
+
+
 }
 
 fn fn1() -> i32 {

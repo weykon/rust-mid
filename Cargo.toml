@@ -3,6 +3,11 @@ name = "rust-mid"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
+[workspace]
+members = [
+    "life", 
+    "read_and_write",
+    "closure_trait_function",
+    "gen_static_and_dyn",
+    "fat_or_not"
+]

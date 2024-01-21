@@ -3,5 +3,25 @@
 version = 3
 
 [[package]]
+name = "closure_trait_function"
+version = "0.1.0"
+
+[[package]]
+name = "fat_or_not"
+version = "0.1.0"
+
+[[package]]
+name = "gen_static_and_dyn"
+version = "0.1.0"
+
+[[package]]
+name = "life"
+version = "0.1.0"
+
+[[package]]
+name = "read_and_write"
+version = "0.1.0"
+
+[[package]]
 name = "rust-mid"
 version = "0.1.0"
