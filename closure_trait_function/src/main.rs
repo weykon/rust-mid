@@ -6,8 +6,6 @@ fn main() {
     wrap_fn(fn2);
     wrap_fn_box(Box::new(fn_box_1));
     wrap_fn_box(Box::new(fn_box_2));
-
-
 }
 
 fn fn1() -> i32 {
@@ -32,3 +30,9 @@ fn wrap_fn_box(fns: Box<dyn Fn() -> &'static str>) {
 fn wrap_fn(_fn: fn() -> i32) {
     println!("a normal stack fn return : {}", _fn());
 }
+
+
+// Fn -> FnMut -> FnOnce
+// Fn 是基于FnMut, FnMut是基于FnOnce
+// 他们说 Fn 是 FnMut 的超特征, FnMut 是 FnOnce 的超特征
+// 所以，任何实现了Fn的必须实现FnMut, 任何实现了FnMut的必须实现FnOnce

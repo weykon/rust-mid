@@ -1,0 +1,1 @@
+https://www.eventhelix.com/rust/rust-to-assembly-return-impl-fn-vs-dyn-fn/
