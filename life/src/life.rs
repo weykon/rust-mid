@@ -2,7 +2,6 @@
 pub fn start<'start>() {
     let may1 = step1();
     println!("may1: {}", may1.data);
-
     step2();
 }
 
