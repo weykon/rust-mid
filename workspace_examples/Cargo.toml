@@ -1,4 +1,15 @@
+[package]
+name = "workspace_examples"
+version = "0.1.0"
+edition = "2021"
+
 [workspace]
-members = ["workspace_1", "workspace_2" ]
+members = [
+    "workspace_1", 
+    "workspace_2"
+]
 
 [workspace.dependencies]
+
+[dependencies]
+workspace_2 = { path = "./workspace_2" }

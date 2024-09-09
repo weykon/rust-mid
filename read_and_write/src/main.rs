@@ -12,8 +12,6 @@ fn main() {
 
     println!("can_read_data: {}", can_read_data);
     println!("can_write_data: {}", can_write_data);
-     
-    life::start();
 }
 
 fn person_use(read: i32) {
@@ -28,5 +26,4 @@ struct OwnStory {
     only_read: i32,
     can_rw: i32,
 }
-pub mod life;
 // this part seem simple, but this is important for rust mentality.

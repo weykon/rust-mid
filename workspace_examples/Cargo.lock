@@ -12,3 +12,10 @@ dependencies = [
 [[package]]
 name = "workspace_2"
 version = "0.1.0"
+
+[[package]]
+name = "workspace_examples"
+version = "0.1.0"
+dependencies = [
+ "workspace_2",
+]

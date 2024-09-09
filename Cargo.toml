@@ -9,5 +9,6 @@ members = [
     "read_and_write",
     "closure_trait_function",
     "gen_static_and_dyn",
-    "fat_or_not"
+    "fat_or_not",
+    "dyn_trait_with_box"
 ]
