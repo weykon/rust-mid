@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-fn main() {
-    println!("Hello, world!");
-}
-=======
 mod life;
 
 mod practice;
@@ -15,4 +10,3 @@ fn main() {
 
     practice::start();   
 }
->>>>>>> origin/main
