@@ -4,12 +4,11 @@ version = "0.1.0"
 edition = "2021"
 
 [workspace]
-members = [
-    "workspace_1", 
-    "workspace_2"
-]
+members = ["runn", "test_in_crates", "workspace_1", "workspace_2"]
 
 [workspace.dependencies]
+test_in_crates = { path = "test_in_crates" }
 
 [dependencies]
 workspace_2 = { path = "./workspace_2" }
+test_in_crates = { workspace = true }
