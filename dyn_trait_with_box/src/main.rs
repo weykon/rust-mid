@@ -6,19 +6,16 @@ struct Gelin;
 struct Linux_Niao;
 
 impl Book for Linux_Niao {
-    fn open_animation (&self) { }
+    fn open_animation(&self) {}
 }
 impl Book for Gelin {
-    fn open_animation (&self) { }
+    fn open_animation(&self) {}
 }
 
-fn just_book (
-    a_book :Box <dyn Book> 
-) {
-
+fn just_book(a_book: Box<dyn Book>) {
+    a_book.open_animation();
 }
 
 fn main() {
     println!("Hello, world!");
-
 }

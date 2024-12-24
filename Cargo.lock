@@ -29,3 +29,7 @@ version = "0.1.0"
 [[package]]
 name = "rust-mid"
 version = "0.1.0"
+
+[[package]]
+name = "still_why_box_or_rcrefcell"
+version = "0.1.0"
